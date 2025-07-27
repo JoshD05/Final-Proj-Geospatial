@@ -1,0 +1,66 @@
+# Geospatial Final Project - Git Ignore File
+
+# Raw Data Folders (Large source datasets)
+pitt-parcels-07-11-2025/
+beaufort-parcels-06-18-2025/
+PITT-addresses-06-11-2025/
+BEAUFORT-addresses-06-11-2025/
+ncvoterPitt/
+ncvoterBeaufort/
+
+# Conda Environment Cache
+.conda/
+
+# Python Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+
+# Large Output Files (Optional - uncomment if you want to exclude)
+# outputs/*.gpkg
+# finalOutputs/
+
+# Keep important files
+!README.md
+!requirements.txt
+!setup.py
+!scripts/
+!NCDOT_County_Boundaries.geojson
+
+# Keep processed outputs and visualizations
+!outputs/*.png
+!outputs/*.txt
+!finalOutputs/*.png

@@ -1,0 +1,59 @@
+GEOSPATIAL FINAL PROJECT - SPATIAL ANALYSIS SUMMARY
+============================================================
+
+Total Voters Analyzed: 88,110
+Counties: Pitt, Beaufort
+
+OVERALL POLITICAL BREAKDOWN:
+  REP: 30,635 (34.8%)
+  UNA: 29,545 (33.5%)
+  DEM: 27,546 (31.3%)
+  LIB: 357 (0.4%)
+  GRE: 27 (0.0%)
+
+PROPERTY VALUE SUMMARY:
+  Mean: $432,078.29
+  Median: $262,230.00
+  Min: $0.00
+  Max: $335,221,379.00
+
+KEY FINDINGS BY ANALYSIS:
+
+1. URBAN/RURAL CLASSIFICATION:
+   - Suburban: 43,880 (49.8%)
+   - Rural: 22,129 (25.1%)
+   - Urban: 22,101 (25.1%)
+
+2. SCHOOL BUFFER ANALYSIS:
+   - Within 1000 ft of schools: 99 (0.1%)
+   - Within 2000 ft of schools: 1,279 (1.5%)
+   - Within 5000 ft of schools: 1,407 (1.6%)
+
+3. AGE DEMOGRAPHICS:
+   - Middle Age (45-64): 28,888 (32.8%)
+   - Senior (65+): 27,243 (30.9%)
+   - Young Adult (30-44): 17,937 (20.4%)
+   - Young (18-29): 14,042 (15.9%)
+
+4. DISTANCE TO COUNTY CENTERS:
+   - Far (50-75%): 22,030 (25.0%)
+   - Very Close (0-25%): 22,028 (25.0%)
+   - Close (25-50%): 22,027 (25.0%)
+   - Very Far (75-100%): 22,025 (25.0%)
+
+5. REGISTRATION PATTERNS:
+   - 2020-Present: 28,176 (32.0%)
+   - 2010-2019: 21,656 (24.6%)
+   - Before 2000: 21,137 (24.0%)
+   - 2000-2009: 17,128 (19.4%)
+   - Unknown: 13 (0.0%)
+
+FILES CREATED:
+- analysis_1_urban_rural_classification.gpkg
+- analysis_2_school_buffers.gpkg
+- analysis_2_sample_schools.gpkg
+- analysis_3_age_demographics.gpkg
+- analysis_4_distance_to_centers.gpkg
+- analysis_4_county_centers.gpkg
+- analysis_5_registration_patterns.gpkg
+- spatial_analysis_summary_report.txt
