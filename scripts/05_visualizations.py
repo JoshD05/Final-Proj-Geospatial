@@ -1,5 +1,4 @@
 """
-Visualization Script for Final Project
 Purpose: Create maps and charts to visualize voter data and spatial analysis results
 Required: "Visualize the data using Python and QGIS"
 """
@@ -895,7 +894,6 @@ def create_comprehensive_summary_visualization(output_dir):
 def main():
     """Main execution for visualization creation"""
     print("=== CREATING PYTHON VISUALIZATIONS ===")
-    print("Generating maps and charts for final project presentation...")
     
     # Set working directory
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -937,27 +935,12 @@ def main():
         print(f"  • {age_file}")
         print(f"  • {dashboard_file}")
         
-        print(f"\n=== FINAL PROJECT STATUS ===")
         print("✅ Geocoding completed (84,747 voters)")
         print("✅ Spatial joins completed (87,723 voters with property data)")
         print("✅ Political vs property value analysis completed")
         print("✅ 5 additional spatial analyses completed")
         print("✅ Python visualizations completed")
         print("✅ GeoPackage files created for QGIS")
-        
-        print(f"\n=== NEXT STEPS FOR COMPLETION ===")
-        print("1. Open QGIS and load the .gpkg files for additional visualization")
-        print("2. Create final maps in QGIS with proper styling and legends")
-        print("3. Write final report comparing Pitt and Beaufort counties")
-        print("4. Prepare presentation with findings and visualizations")
-        
-        print(f"\n=== KEY FINDINGS SUMMARY ===")
-        print("• Beaufort County has higher geocoding success (71.5% vs 62.2%)")
-        print("• Counties show distinct political patterns")
-        print("• Property values vary significantly by party and location")  
-        print("• Rural vs urban patterns differ between counties")
-        print("• Age demographics show county-specific trends")
-        print("• Registration patterns reflect historical and recent changes")
         
     except Exception as e:
         print(f"Error creating visualizations: {e}")

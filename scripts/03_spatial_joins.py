@@ -185,12 +185,6 @@ def main():
     total_time = time.time() - total_start
     print(f"\n=== TOTAL PROCESSING TIME: {total_time:.1f} seconds ===")
     print("Spatial joins complete!")
-    
-    print(f"\n=== NEXT STEPS ===")
-    print("1. Review the property value analysis above")
-    print("2. Use QGIS to visualize the spatial patterns")
-    print("3. Create additional spatial analyses (urban vs rural, etc.)")
-    print("4. Generate maps and charts for your final presentation")
 
 if __name__ == "__main__":
     main()

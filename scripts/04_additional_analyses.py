@@ -1,7 +1,6 @@
 """
 Additional Spatial Analyses Script
 Purpose: Implement 5 additional spatial analyses for voter characteristics
-Required for final project: urban vs rural, buffer analyses, demographic patterns, etc.
 """
 
 import geopandas as gpd
@@ -383,7 +382,7 @@ def create_summary_report(combined_data, output_dir):
     summary_file = os.path.join(output_dir, "spatial_analysis_summary_report.txt")
     
     with open(summary_file, 'w') as f:
-        f.write("GEOSPATIAL FINAL PROJECT - SPATIAL ANALYSIS SUMMARY\n")
+        f.write("\SPATIAL ANALYSIS SUMMARY\n")
         f.write("="*60 + "\n\n")
         
         f.write(f"Total Voters Analyzed: {len(combined_data):,}\n")
@@ -470,9 +469,7 @@ def create_summary_report(combined_data, output_dir):
 
 def main():
     """Main execution for additional spatial analyses"""
-    print("=== ADDITIONAL SPATIAL ANALYSES ===")
-    print("Running 5 required spatial analyses for final project...")
-    
+    print("=== ADDITIONAL SPATIAL ANALYSES ===")    
     # Set working directory
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     
@@ -501,16 +498,6 @@ def main():
         
         # Create comprehensive summary
         create_summary_report(combined_data, output_dir)
-        
-        print("\n" + "="*60)
-        print("ALL 5 SPATIAL ANALYSES COMPLETED SUCCESSFULLY!")
-        print("="*60)
-        print(f"Output files saved in: {output_dir}")
-        print("\nNext steps:")
-        print("1. Review the analysis results above")
-        print("2. Open QGIS and load the .gpkg files for visualization")
-        print("3. Create maps and charts for your final presentation")
-        print("4. Write up your findings comparing the two counties")
         
     except Exception as e:
         print(f"Error during analysis: {e}")

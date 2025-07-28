@@ -210,10 +210,3 @@ if __name__ == "__main__":
     explore_voter_data()
     explore_address_data()
     explore_parcel_data()
-    
-    print("\n=== NEXT STEPS ===")
-    print("Based on the exploration above, identify:")
-    print("1. Address fields in voter data (street, city, zip)")
-    print("2. Address fields in address datasets for matching")
-    print("3. Coordinate fields in address datasets")
-    print("4. PARVAL field in parcel data for property value analysis")
